@@ -1,11 +1,28 @@
 .posicao-imagem {
-    position: absolute;
-    right: 45rem; /* 45 * 16 = 720px */
-
+  position: absolute;
+  right: 45rem; /* 45 * 16 = 720px */
 }
 
+@media (min-width: 768px) {
+  .posicao-imagem {
+    right: 10rem;
+    height: 250px;
+    width: 250px;
+  }
+}
 
+@media (min-width: 1024px) {
+  .posicao-imagem {
+    right: 10rem;
+    height: 250px;
+    width: 250px;
+  }
+}
 
-
-
-
+@media (min-width: 1440px) {
+  .posicao-imagem {
+    right: 20rem;
+    height: 445px !important;
+    width: 450px !important;
+  }
+}
